@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 
 path = Path()
-path = f"{path.parent.absolute()}\\static\\periodictable.json"
+path = f"{path.parent.absolute()}/static/periodictable.json"
 
 
 def analyze(message):

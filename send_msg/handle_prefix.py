@@ -3,7 +3,7 @@ from pathlib import Path
 from .send_message import main
 
 path = Path()
-path = f"{path.parent.absolute()}\\bot.json"
+path = f"{path.parent.absolute()}/bot.json"
 
 with open(path, "r") as prefixes:
     custom_prefixes = json.load(prefixes)
