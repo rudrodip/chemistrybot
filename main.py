@@ -1,10 +1,10 @@
 import discord
-import config
+import os
 from send_msg import handle_prefix
 
 
 client = discord.Client()
-TOKEN = config.TOKEN
+TOKEN = os.environ["TOKEN"]
 
 @client.event
 async def on_ready():
